@@ -156,7 +156,7 @@
     function rand() {
         return Math.round(Math.random() * 100)
     }
-
+   
     let traveler1 = new Traveler(rand(), "Morgan", true);
     console.log(traveler1.eat());
     let traveler2 = new Traveler(rand(), "Eliot", true);
